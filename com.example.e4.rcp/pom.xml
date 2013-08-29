@@ -31,6 +31,11 @@
 				<configuration>
 					<debug>true</debug>
 					<encoding>UTF-8</encoding>
+					<!-- Compile each bundle against a JDK that matches its Bundle-RequiredExecutionEnvironment 
+						(BREE) defined in the OSGi MANIFEST.MF -->
+					<!-- See $user.home/.m2/toolchains.xml for current active BREE to JDK mapping -->
+					<!-- (http://maven.apache.org/guides/mini/guide-using-toolchains.html) -->
+					<useJDK>BREE</useJDK>
 				</configuration>
 			</plugin>
 		</plugins>
