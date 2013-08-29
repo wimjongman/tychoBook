@@ -19,4 +19,14 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<!-- Show maven/tycho where to find 3rd party dependencies -->
+	<!-- (Kepler is a p2 repository containing Eclipse's annual release train) -->
+	<repositories>
+		<repository>
+			<id>Kepler</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/kepler</url>
+		</repository>
+	</repositories>
 </project>
