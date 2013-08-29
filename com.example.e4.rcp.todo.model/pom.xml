@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.e4.rcp</groupId>
 	<artifactId>com.example.e4.rcp.todo.model</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<!-- Tell maven what packaging to apply to this project -->
 	<packaging>eclipse-plugin</packaging>
