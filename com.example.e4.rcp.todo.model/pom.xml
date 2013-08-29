@@ -4,4 +4,19 @@
 	<groupId>com.example.e4.rcp</groupId>
 	<artifactId>com.example.e4.rcp.todo.model</artifactId>
 	<version>1.0.0</version>
+
+	<!-- Tell maven what packaging to apply to this project -->
+	<packaging>eclipse-plugin</packaging>
+
+	<build>
+		<plugins>
+			<!-- Enable tycho build extension -->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>0.18.1</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
 </project>
