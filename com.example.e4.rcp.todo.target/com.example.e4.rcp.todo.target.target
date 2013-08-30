@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="eclipse4rcp" sequenceNumber="42">
+<?pde version="3.8"?><target includeMode="feature" name="eclipse4rcp" sequenceNumber="43">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.emf.common.feature.group" version="2.9.0.v20130528-0742"/>
+<unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20130521-0416"/>
 <unit id="org.eclipse.emf.ecore.feature.group" version="2.9.0.v20130528-0742"/>
 <unit id="org.eclipse.e4.rcp.feature.group" version="1.2.0.v20130605-1738"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
