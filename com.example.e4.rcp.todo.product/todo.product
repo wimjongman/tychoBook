@@ -3,6 +3,7 @@
 
 <product name="to-do" uid="com.example.e4.rcp.todo.product" id="com.example.e4.rcp.todo.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" useFeatures="true" includeLaunchers="true">
 
+
    <configIni use="default">
    </configIni>
 
@@ -11,15 +12,20 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
-   <launcher>
+   <windowImages/>
+
+
+   <launcher name="todo">
       <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
       <plugin id="com.example.e4.bundleresourceloader"/>
