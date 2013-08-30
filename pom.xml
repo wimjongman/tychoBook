@@ -25,5 +25,8 @@
 		
 		<!-- repositories -->
 		<module>com.example.e4.rcp.todo.repository</module>
+
+		<!-- targets -->
+		<module>com.example.e4.rcp.todo.target</module>
 	</modules>
 </project>
