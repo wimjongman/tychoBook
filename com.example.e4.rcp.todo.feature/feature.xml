@@ -17,6 +17,14 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="com.example.e4.rcp.todo.model.feature"
+         version="0.0.0"/>
+
+   <requires>
+      <import feature="org.eclipse.e4.rcp" version="1.2.0"/>
+   </requires>
+
    <plugin
          id="com.example.e4.rcp.todo"
          download-size="0"
