@@ -29,5 +29,8 @@
 		<!-- targets -->
 		<module>com.example.e4.rcp.todo.target</module>
 		<module>com.example.e4.rcp.todo.target.juno</module>
+
+		<!-- products -->
+		<module>com.example.e4.rcp.todo.product</module>
 	</modules>
 </project>
