@@ -22,5 +22,8 @@
 		<!-- features -->
 		<module>com.example.e4.rcp.todo.model.feature</module>
 		<module>com.example.e4.rcp.todo.feature</module>
+		
+		<!-- repositories -->
+		<module>com.example.e4.rcp.todo.repository</module>
 	</modules>
 </project>
