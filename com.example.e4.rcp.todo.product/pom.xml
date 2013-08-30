@@ -37,6 +37,17 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<products>
+						<product>
+							<!-- id is verbatim to todo.product "uid" -->
+							<id>com.example.e4.rcp.todo.product</id>
+							<!-- Causes the archives to contain a folder todo/ that contains the application -->
+							<!-- Without it, the application is at the archive root -->
+							<rootFolder>todo</rootFolder>
+						</product>
+					</products>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
