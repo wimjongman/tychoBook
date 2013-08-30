@@ -11,6 +11,9 @@
 	<!-- Make 0.18.1 available as property ${tycho.version} -->
 	<properties>
 		<tycho.version>0.18.1</tycho.version>
+		<!-- Remove warnings about platform dependent build caused by undefined 
+			sourceEncoding -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<build>
