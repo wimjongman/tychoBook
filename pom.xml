@@ -12,8 +12,12 @@
 	<!-- The list of modules could also be defined in a pom.xml residing in ../ -->
 	<!-- The order of modules aka bundles does _not_ matter :-) -->
 	<modules>
+		<!-- bundles -->
 		<module>com.example.e4.rcp.todo.service</module>
 		<module>com.example.e4.rcp.todo.events</module>
 		<module>com.example.e4.rcp.todo.model</module>
+
+		<!-- features -->
+		<module>com.example.e4.rcp.todo.model.feature</module>
 	</modules>
 </project>
