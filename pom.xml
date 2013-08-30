@@ -13,11 +13,14 @@
 	<!-- The order of modules aka bundles does _not_ matter :-) -->
 	<modules>
 		<!-- bundles -->
+		<module>com.example.e4.bundleresourceloader</module>
+		<module>com.example.e4.rcp.todo</module>
 		<module>com.example.e4.rcp.todo.service</module>
 		<module>com.example.e4.rcp.todo.events</module>
 		<module>com.example.e4.rcp.todo.model</module>
 
 		<!-- features -->
 		<module>com.example.e4.rcp.todo.model.feature</module>
+		<module>com.example.e4.rcp.todo.feature</module>
 	</modules>
 </project>
