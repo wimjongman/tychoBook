@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.example.e4.rcp.todo.feature_1.0.0.qualifier.jar" id="com.example.e4.rcp.todo.feature" version="1.0.0.qualifier">
+      <category name="Todo RCP"/>
+   </feature>
+   <feature url="features/com.example.e4.rcp.todo.model.feature_1.0.0.qualifier.jar" id="com.example.e4.rcp.todo.model.feature" version="1.0.0.qualifier">
+      <category name="Todo Model"/>
+   </feature>
+   <category-def name="Todo RCP" label="Super RCP App"/>
+   <category-def name="Todo Model" label="The (standalone) Todo model (no UI)">
+      <description>
+         Also some meaningful description could be provided, jada jada jada...
+      </description>
+   </category-def>
+</site>
