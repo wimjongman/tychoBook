@@ -41,16 +41,23 @@
 					<useJDK>BREE</useJDK>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<!-- use existing target platform definition -->
+					<target>
+						<artifact>
+							<groupId>com.example.e4.rcp</groupId>
+							<artifactId>com.example.e4.rcp.todo.target</artifactId>
+							<version>1.0.0-SNAPSHOT</version>
+							<classifier>eclipse4rcp</classifier>
+						</artifact>
+					</target>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
-	<!-- Show maven/tycho where to find 3rd party dependencies -->
-	<!-- (Kepler is a p2 repository containing Eclipse's annual release train) -->
-	<repositories>
-		<repository>
-			<id>Kepler</id>
-			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/kepler</url>
-		</repository>
-	</repositories>
 </project>
