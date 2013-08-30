@@ -8,13 +8,18 @@
 	<!--A parent always has the pom packaging type -->
 	<packaging>pom</packaging>
 
+	<!-- Make 0.18.1 available as property ${tycho.version} -->
+	<properties>
+		<tycho.version>0.18.1</tycho.version>
+	</properties>
+
 	<build>
 		<plugins>
 			<!-- Enable tycho build extension -->
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-				<version>0.18.1</version>
+				<version>${tycho.version}</version>
 				<extensions>true</extensions>
 			</plugin>
 			<!-- Configure compiler options common to all bundles -->
@@ -22,7 +27,7 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-compiler-plugin</artifactId>
-				<version>0.18.1</version>
+				<version>${tycho.version}</version>
 				<configuration>
 					<debug>true</debug>
 					<encoding>UTF-8</encoding>
