@@ -52,7 +52,6 @@
 							<groupId>com.example.e4.rcp</groupId>
 							<artifactId>com.example.e4.rcp.todo.target</artifactId>
 							<version>1.0.0-SNAPSHOT</version>
-							<classifier>eclipse4rcp</classifier>
 						</artifact>
 					</target>
 				</configuration>
