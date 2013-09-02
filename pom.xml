@@ -32,5 +32,8 @@
 
 		<!-- products -->
 		<module>com.example.e4.rcp.todo.product</module>
+
+		<!-- tests -->
+		<module>com.example.e4.rcp.todo.model.test</module>
 	</modules>
 </project>

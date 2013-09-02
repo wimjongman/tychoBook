@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<artifactId>com.example.e4.rcp</artifactId>
+		<groupId>com.example.e4.rcp</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../com.example.e4.rcp/pom.xml</relativePath>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.example.e4.rcp</groupId>
+	<artifactId>com.example.e4.rcp.todo.model.test</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<!-- Tell maven what packaging to apply to this project -->
+	<packaging>eclipse-test-plugin</packaging>
+
+	<build>
+		<plugins>
+			<!-- Run JUnit tests -->
+			<!-- http://eclipse.org/tycho/sitedocs/tycho-surefire/tycho-surefire-plugin/test-mojo.html -->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<!-- Enables -debug -consolelog for the test OSGi runtime -->
+					<showEclipseLog>true</showEclipseLog>
+					<!-- Explicitly set our application to be the test app -->
+					<application>org.eclipse.e4.ui.workbench.swt.E4Application</application>
+					<product>com.example.e4.rcp.todo.product</product>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
