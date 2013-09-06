@@ -18,13 +18,14 @@
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.emf.common.feature.group" version="2.9.0.v20130528-0742"/>
-<unit id="org.eclipse.rcp.id" version="4.3.0.I20130605-2000"/>
-<unit id="org.eclipse.platform.feature.group" version="4.3.0.v20130605-2000"/>
 <unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20130521-0416"/>
 <unit id="org.eclipse.emf.ecore.feature.group" version="2.9.0.v20130528-0742"/>
 <unit id="org.eclipse.e4.rcp.feature.group" version="1.2.0.v20130605-1738"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
+</location>
+<!-- Running UI tests still requires 3.x code (does not have to be part of our product though) -->
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.platform.ide" version="4.3.0.I20130605-2000"/>
-<unit id="org.eclipse.rcp.feature.group" version="4.3.0.v20130605-2000"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
 </location>
 </locations>
