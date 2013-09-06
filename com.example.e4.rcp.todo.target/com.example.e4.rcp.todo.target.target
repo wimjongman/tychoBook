@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="eclipse4rcp" sequenceNumber="48">
+<?pde version="3.8"?><target includeMode="feature" name="eclipse4rcp" sequenceNumber="50">
 <locations>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
-<unit id="org.eclipse.emf.common.feature.group" version="2.9.0.v20130528-0742"/>
-<unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20130521-0416"/>
-<unit id="org.eclipse.emf.ecore.feature.group" version="2.9.0.v20130528-0742"/>
-<unit id="org.eclipse.e4.rcp.feature.group" version="1.2.0.v20130605-1738"/>
-<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
-</location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
 <unit id="org.junit" version="4.11.0.v201303080030"/>
 <unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
@@ -15,6 +8,24 @@
 <unit id="org.hamcrest.core" version="1.3.0.v201303031735"/>
 <unit id="org.hamcrest.library" version="1.1.0.v20090501071000"/>
 <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.hamcrest.core" version="1.3.0.v201303031735"/>
+<unit id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<unit id="org.hamcrest.library" version="1.3.0.v201305281000"/>
+<unit id="org.eclipse.swtbot.feature.group" version="2.1.2.201309031407"/>
+<repository location="http://download.eclipse.org/technology/swtbot/snapshots"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.emf.common.feature.group" version="2.9.0.v20130528-0742"/>
+<unit id="org.eclipse.rcp.id" version="4.3.0.I20130605-2000"/>
+<unit id="org.eclipse.platform.feature.group" version="4.3.0.v20130605-2000"/>
+<unit id="org.eclipse.equinox.executable.feature.group" version="3.6.0.v20130521-0416"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.9.0.v20130528-0742"/>
+<unit id="org.eclipse.e4.rcp.feature.group" version="1.2.0.v20130605-1738"/>
+<unit id="org.eclipse.platform.ide" version="4.3.0.I20130605-2000"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.3.0.v20130605-2000"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
 </location>
 </locations>
 </target>

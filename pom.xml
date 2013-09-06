@@ -35,5 +35,6 @@
 
 		<!-- tests -->
 		<module>com.example.e4.rcp.todo.model.test</module>
+		<module>com.example.e4.rcp.todo.uitest</module>
 	</modules>
 </project>

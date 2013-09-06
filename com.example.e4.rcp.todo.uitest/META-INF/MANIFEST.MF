@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SWTBot based Uitest
+Bundle-SymbolicName: com.example.e4.rcp.todo.uitest
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.swt;bundle-version="3.0.0",
+ org.junit;bundle-version="4.10.0"
+Export-Package: com.example.e4.rcp.todo
+Import-Package: org.eclipse.swtbot.swt.finder,
+ org.eclipse.swtbot.swt.finder.junit,
+ org.eclipse.swtbot.swt.finder.widgets
